@@ -1,0 +1,390 @@
+2014/12/30 15:14:50 :
+Message:無效的資料行名稱 'resx_texts'。
+無效的資料行名稱 'sys_names'。
+Trace:   於 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   於 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   於 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   於 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   於 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   於 CPC.DataAccess.RunSqlBase.commitTransaction()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:20:26 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:20:27 :
+Message:這個 SqlTransaction 已經完成，它已不再是個可使用的項目。
+Trace:   於 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   於 System.Data.SqlClient.SqlTransaction.Rollback()
+   於 CPC.DataAccess.RunSqlBase.rollbackTransaction()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:21:10 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:21:10 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:21:10 :
+Message:這個 SqlTransaction 已經完成，它已不再是個可使用的項目。
+Trace:   於 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   於 System.Data.SqlClient.SqlTransaction.Rollback()
+   於 CPC.DataAccess.RunSqlBase.rollbackTransaction()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:22:17 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:22:17 :
+Message:這個 SqlTransaction 已經完成，它已不再是個可使用的項目。
+Trace:   於 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   於 System.Data.SqlClient.SqlTransaction.Rollback()
+   於 CPC.DataAccess.RunSqlBase.rollbackTransaction()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:25:28 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:25:28 :
+Message:這個 SqlTransaction 已經完成，它已不再是個可使用的項目。
+Trace:   於 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   於 System.Data.SqlClient.SqlTransaction.Rollback()
+   於 CPC.DataAccess.RunSqlBase.rollbackTransaction()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:25:43 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:25:58 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:27:19 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:27:19 :
+Message:這個 SqlTransaction 已經完成，它已不再是個可使用的項目。
+Trace:   於 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   於 System.Data.SqlClient.SqlTransaction.Rollback()
+   於 CPC.DataAccess.RunSqlBase.rollbackTransaction()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:27:34 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:27:49 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:28:04 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:28:19 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:37:01 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:37:01 :
+Message:這個 SqlTransaction 已經完成，它已不再是個可使用的項目。
+Trace:   於 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   於 System.Data.SqlClient.SqlTransaction.Rollback()
+   於 CPC.DataAccess.RunSqlBase.rollbackTransaction()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:37:16 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:37:32 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:37:47 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:38:06 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:38:21 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.GetDataSet(String command, Hashtable parameters, DataType dbtype, Boolean isProcedure)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:38:21 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:38:36 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:38:51 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:39:06 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:39:21 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:39:36 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:39:54 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:40:18 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:40:18 :
+Message:這個 SqlTransaction 已經完成，它已不再是個可使用的項目。
+Trace:   於 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   於 System.Data.SqlClient.SqlTransaction.Rollback()
+   於 CPC.DataAccess.RunSqlBase.rollbackTransaction()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:41:55 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:41:55 :
+Message:這個 SqlTransaction 已經完成，它已不再是個可使用的項目。
+Trace:   於 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   於 System.Data.SqlClient.SqlTransaction.Rollback()
+   於 CPC.DataAccess.RunSqlBase.rollbackTransaction()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:43:09 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:43:09 :
+Message:這個 SqlTransaction 已經完成，它已不再是個可使用的項目。
+Trace:   於 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   於 System.Data.SqlClient.SqlTransaction.Rollback()
+   於 CPC.DataAccess.RunSqlBase.rollbackTransaction()
+   於 CPC.DataAccess.RunSqlBase.SaveSql(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:43:39 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.GetDataSet(String command, Hashtable parameters, DataType dbtype, Boolean isProcedure)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:44:55 :
+Message:已超過連接逾時的設定。在取得集區連接之前超過逾時等待的時間，可能的原因為所有的共用連接已在使用中，並已達共用集區大小的最大值。
+Trace:   於 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   於 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   於 System.Data.SqlClient.SqlConnection.Open()
+   於 CPC.DataAccess.RunSqlBase.openConnection()
+   於 CPC.DataAccess.RunSqlBase.GetDataSet(String command, Hashtable parameters, DataType dbtype, Boolean isProcedure)
+---------------------------------------------------------------------------------------------------
+2014/12/30 15:46:10 :
+Message:已超過連接逾時的設定。在作業完成之前超過逾時等待的時間，或者是伺服器未回應。
+Trace:   於 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   於 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   於 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   於 System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   於 System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   於 System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   於 System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   於 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   於 System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   於 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   於 System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   於 System.Data.SqlClient.SqlInternalTransaction.Commit()
+   於 System.Data.SqlClient.SqlTransaction.Commit()
+   於 CPC.DataAccess.RunSqlBase.commitTransaction()
+   於 CPC.DataAccess.RunSqlBase.ExecNoQuery(String command, Hashtable parameters, DataType dbType, Boolean isProcedure, String UserName)
+---------------------------------------------------------------------------------------------------
+2015/11/18 14:56:03 :
+Message:已成功与服务器建立连接，但是在登录过程中发生错误。 (provider: 命名管道提供程序, error: 0 - 管道的另一端上无任何进程。)
+Trace:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 CPC.DataAccess.RunSqlBase.openConnection()
+   在 CPC.DataAccess.RunSqlBase.GetDataSet(String command, Hashtable parameters, DataType dbtype, Boolean isProcedure)
+---------------------------------------------------------------------------------------------------
+2015/11/18 14:56:25 :
+Message:使用者 'ttadm' 的登入失敗。
+Trace:   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 CPC.DataAccess.RunSqlBase.openConnection()
+   在 CPC.DataAccess.RunSqlBase.GetDataSet(String command, Hashtable parameters, DataType dbtype, Boolean isProcedure)
+---------------------------------------------------------------------------------------------------

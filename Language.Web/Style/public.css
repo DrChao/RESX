@@ -1,0 +1,247 @@
+﻿body 
+{
+	font-size: 12px;
+	font-family: Arial, sans-serifarial, Verdana, Helvetica;
+	background: #ffffff;
+	margin: 0px auto;
+}
+/*A标签样式表设计*/
+a
+{
+	color: #006699;
+	text-decoration: none;
+}
+
+a:hover, a:active
+{
+	color: #F00;
+	text-decoration: none;
+}
+
+/*Ajax访问时Web界面等待提示*/
+.loading-indicator{ height: 80px;	width: 80px;background: url( '../images/loading.gif' );background-repeat: no-repeat;background-position: center center; }
+.loading-indicator-overlay{background-color: #FFFFFF;opacity: 0.6;filter: alpha(opacity = 60); }
+
+ 
+
+.Show
+{
+	clear: both;
+	border-collapse: collapse;
+	width: 100%;
+}
+.Show a
+{
+	color: #57A300;
+}
+.Show a:hover
+{
+	color: Red;
+}
+.Show tr
+{
+}
+.Show tr:hover
+{
+	background-color: #C9C9C9;
+}
+.Show thead td
+{
+	background: #EAEAEA;
+}
+.Show td
+{
+	line-height: 30px;
+	border: 1px #808080 solid;
+	padding-left: 5px;
+}
+.Show tfoot td
+{
+	text-align:right;
+	border:0px;
+	background-color:white
+}
+
+
+.FieldSet
+{
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+
+.Input_line_300
+{
+	background-color: transparent;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: #000000 1px solid;
+	text-align:left;
+	width: 300px;
+	padding-left: 10px;
+}
+
+.Input_line_500
+{
+	background-color: transparent;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: #000000 1px solid;
+	text-align:left;
+	width: 500px;
+	padding-left: 10px;
+}
+
+
+/* 子页面顶部导航栏样式 */
+#round
+{
+	margin: 0;
+}
+div.rtop
+{
+	display: block;
+	background: #E0E0D9;
+}
+div.rtop div
+{
+	display: block;
+	height: 1px;
+	overflow: hidden;
+	background: Gray;
+}
+div.r1
+{
+	margin: 0 4px;
+}
+div.r2
+{
+	margin: 0 2px;
+}
+div.r3
+{
+	margin: 0 1px;
+}
+div.rtop div.r4
+{
+	margin: 0 0px;
+	height: 28px;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 28px;
+	padding-left: 8px;
+}
+div.rtop div.r4 a
+{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+div.rtop div.r4 a:hover
+{
+	color: #D70000;
+	font-size: 12px;
+}
+div.rtop div.r4 a.lastA
+{
+	color: #DE3031;
+	font-size: 12px;
+}
+div.rtop div.r4 a.lastA:hover
+{
+	color: #DE3031;
+	font-size: 12px;
+}
+
+/* 子页面顶部导航栏样式 */
+
+
+
+
+/*分页控件*/
+    .page-control-pagenum
+        {
+            display: inline;
+            width: 20px;
+            height: 20px;
+            margin-left: 2px;
+            border: 1px solid #808080;
+            font-size: 12px;
+            padding: 5px;
+            color: #4682B4;
+        }
+        .page-control-split
+        {
+            display: inline;
+            width: 20px;
+            height: 20px;
+            margin-left: 2px;
+            font-size: 12px;
+            padding: 5px;
+            color: #4682B4;
+        }
+        .page-control-Redirect
+        {
+            display: inline;
+            width: 20px;
+            height: 20px;
+            margin-left: 2px;
+            border: 1px solid #808080;
+            font-size: 12px;
+            padding: 5px;
+        }
+        .page-control-Redirect input
+        {
+            border: solid 1px #808080;
+        }
+        .input-Redirect
+        {
+            width: 50px;
+            border: solid 1px #808080;
+        }
+        .page-control-forward
+        {
+            display: inline;
+            width: 50px;
+            height: 20px;
+            margin-left: 2px;
+            border: 1px solid #808080;
+            font-size: 12px;
+            padding: 5px;
+            color: #4682B4;
+        }
+        .page-control-pagenum-selected
+        {
+            display: inline;
+            width: 20px;
+            height: 20px;
+            margin-left: 2px;
+            border: 1px solid #808080;
+            font-size: 12px;
+            padding: 5px;
+            color: white;
+            background-color: #4682B4;
+        }
+        .page-control-pagenum A:LINK, .page-control-forward A:LINK
+        {
+            text-decoration: none;
+            color: #4682B4;
+        }
+        .page-control-pagenum A:ACTIVE, .page-control-forward A:ACTIVE
+        {
+            text-decoration: underline;
+            color: #4682B4;
+        }
+        .page-control-pagenum A:HOVER, .page-control-forward A:HOVER
+        {
+            text-decoration: underline;
+            color: red;
+        }
+        .page-control-pagenum A:VISITIED, .page-control-forward A:VISITIED
+        {
+            text-decoration: none;
+            color: #4682B4;
+        }

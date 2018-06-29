@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\WorkArea\Dev_Publish\Resx" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/Language.Web.dll" publishTime="08/19/2015 14:29:07" />
+    <file relUrl="Ref/Newtonsoft.Json.dll" publishTime="09/14/2012 16:18:48" />
+    <file relUrl="bin/Language.Public.dll" publishTime="08/19/2015 14:29:05" />
+    <file relUrl="Web/BrowserFile.aspx" publishTime="09/28/2012 09:25:48" />
+    <file relUrl="Web/CreateResxFile.aspx" publishTime="08/19/2015 14:23:02" />
+    <file relUrl="Ref/CPC.DataAccess.dll" publishTime="09/25/2012 09:01:04" />
+    <file relUrl="bin/CPC.DataAccess.dll" publishTime="09/25/2012 09:01:04" />
+    <file relUrl="Web/Other.aspx" publishTime="03/25/2014 16:56:39" />
+    <file relUrl="JScripts/public.js" publishTime="11/30/2013 09:05:34" />
+    <file relUrl="TEST.aspx" publishTime="12/02/2014 08:39:09" />
+    <file relUrl="Style/public.css" publishTime="11/30/2013 09:06:46" />
+    <file relUrl="bin/Language.Resource.dll" publishTime="08/19/2015 14:29:05" />
+    <file relUrl="Doc/table.sql" publishTime="09/29/2012 09:11:04" />
+    <file relUrl="bin/Language.Web.pdb" publishTime="08/19/2015 14:29:07" />
+    <file relUrl="Web/CNTWEN.aspx" publishTime="08/19/2015 14:23:30" />
+    <file relUrl="JScripts/jquery.form.js" publishTime="09/25/2012 09:48:42" />
+    <file relUrl="Web/ResxTest.aspx" publishTime="09/29/2012 11:54:42" />
+    <file relUrl="Web/AddWord.aspx" publishTime="08/19/2015 14:23:59" />
+    <file relUrl="Services/ResxServ.aspx" publishTime="09/14/2012 15:42:48" />
+    <file relUrl="bin/ChineseConverter.dll" publishTime="09/29/2012 11:43:00" />
+    <file relUrl="Default.aspx" publishTime="05/29/2014 20:29:36" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="09/14/2012 16:18:48" />
+    <file relUrl="Web/Import.aspx" publishTime="05/12/2014 12:46:07" />
+    <file relUrl="Ref/ChineseConverter.dll" publishTime="09/29/2012 11:43:00" />
+    <file relUrl="Web/ResxSearch.aspx" publishTime="08/19/2015 14:29:02" />
+    <file relUrl="bin/Language.Resource.pdb" publishTime="08/19/2015 14:29:05" />
+    <file relUrl="JScripts/Source/TranslateInfo.js" publishTime="09/13/2014 16:52:40" />
+    <file relUrl="JScripts/language.js" publishTime="09/28/2012 11:52:22" />
+    <file relUrl="Web.config" publishTime="08/19/2015 14:29:35" />
+    <file relUrl="bin/Language.Common.pdb" publishTime="08/19/2015 14:29:06" />
+    <file relUrl="bin/Language.Common.dll" publishTime="08/19/2015 14:29:06" />
+    <file relUrl="JScripts/Source/FilesInfo.js" publishTime="02/21/2013 17:33:36" />
+    <file relUrl="images/loading.gif" publishTime="11/30/2013 09:06:18" />
+    <file relUrl="bin/Language.Public.pdb" publishTime="08/19/2015 14:29:05" />
+    <file relUrl="JScripts/Source/ResourceInfo.js" publishTime="08/19/2015 14:27:28" />
+    <file relUrl="JScripts/ext-core.js" publishTime="02/21/2013 11:55:50" />
+    <file relUrl="JScripts/jquery-1.8.1.min.js" publishTime="09/14/2012 14:38:06" />
+  </publishProfile>
+</publishData>
